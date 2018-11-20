@@ -1,0 +1,22 @@
+span
+{
+  font-family: 'Anton';
+  margin-right: 10px;
+}
+#heading
+{
+    font-family: 'pattaya';
+    text-align: center;
+}
+#item1
+{
+  margin-top: 10px;
+  margin-left: 620px;
+  width: 600px;
+}
+#item2
+{
+  margin-left: 40px;
+  margin-top: 10px;
+  width:600;
+}
