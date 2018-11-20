@@ -78,7 +78,7 @@ class ChatRoom extends Component
         return (
             <div>
                 
-                   {message.username === this.state.username && <li key={message.id} class="list-group-item" id="item1" class="list-group-item list-group-item-success">{message.text}</li>}
+                   {message.username === this.state.username && <li key={message.id} class="list-group-item" id="item1" style={{width:"600px",marginTop:10,marginLeft:620}} class="list-group-item list-group-item-success">{message.text}</li>}
                    {message.username !== this.state.username && <li key={message.id} class="list-group-item" style={{marginLeft:40,marginTop:10,width:600}} class="list-group-item list-group-item-info">{message.text}</li>}
                 
             </div>
@@ -87,7 +87,7 @@ class ChatRoom extends Component
      return(
        <div> 
             <div>
-               <h2 id="heading" >Innomick ChatApp</h2>
+               <h2 id="heading" style={{ textAlign:"center",fontFamily:'pattaya'}} >Innomick ChatApp</h2>
                 { !this.state.startChat &&
                   <div> 
                       <center>
